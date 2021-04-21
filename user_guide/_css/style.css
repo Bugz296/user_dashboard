@@ -1,0 +1,88 @@
+*{
+    outline: 0px dashed green;
+}
+.first{
+    margin-top: 40px;
+    width: 700px;
+    padding: 10px;
+}
+.user-show table tr td{
+    font-weight: bold;
+}
+.msg{
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+}
+
+
+.msg-cont{
+    width: 97%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+    .msg-cont textarea{
+        width: 97%;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+
+.msg-com-form{
+    border-bottom: 2px solid #d1d1d1;
+    margin-top: 10px;
+    padding: 10px;
+}
+    #comment-section{
+        text-align: right;
+    }
+    #comment-section textarea{
+        width: 50%;
+    }
+        .time{
+            margin-top: -20px;
+            font-style: italic;
+            color: gray;
+        }
+        .msg-box{
+            padding: 5px;
+            border: 1px solid black;
+        }
+        .comment-box{
+            padding: 5px;
+            width: 80%;
+            float:right;
+        }
+input[type=text], input[type=password]{
+    height: 30px;
+}
+.edit-form{
+    border: 1px solid gray;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+    .edit-form h5{
+        margin-top: -20px;
+        background-color: white;
+        padding: 0px 5px;
+        width: 130px;
+    }
+    .change-pass{
+        margin-left: 20px;
+    }
+    .desc-box{
+        width: 500px;
+    }
+    .desc-box textarea{
+        width: 98%;
+    }
+.col-name{
+    width: 120px;
+    font-weight: lighter!important;
+}
+.no-val{
+    color: gray;
+    text-align: center;
+}
